@@ -1,0 +1,43 @@
+body {
+    color: #2f3238;
+    font-weight: 400;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#imageContainer {
+	margin: 2em auto;
+}
+
+#navigation {
+	text-align: center;
+	color: #ccc;
+	font-weight: 600;
+}
+
+#navigation .prev:before{
+	font-family: 'Glyphicons Halflings';
+    content: "\e079";
+}
+
+#navigation .next:after{
+	font-family: 'Glyphicons Halflings';
+    content: "\e080";
+}
+.default {
+    font-weight: 600;
+    color: #ccc;
+}
+.default:hover {
+	color:#ccc;
+}
+.activ {
+    font-weight: 600;
+    color: #5bc0de;
+}
+
+.activ a {
+	color: #5bc0de;
+}
